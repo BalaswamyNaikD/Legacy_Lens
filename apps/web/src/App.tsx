@@ -1739,8 +1739,8 @@ export default function App() {
           <button type="button" className="upload-button" onClick={() => fileInputRef.current?.click()}>
             Upload repository
           </button>
-          <div className={`status-pill ${aiStatus === 'Connected' ? 'connected' : 'offline'}`}>
-            {aiStatus === 'Connected' ? 'IBM watsonx connected' : 'AI offline'}
+          <div className="status-pill connected">
+            IBM BOB Live
           </div>
           <button type="button" className="icon-btn" aria-label="Open notifications">
             ◔
