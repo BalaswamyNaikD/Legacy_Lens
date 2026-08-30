@@ -8,8 +8,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_API: ${{ github.repository }}/legacy-lens-api
-  IMAGE_WEB: ${{ github.repository }}/legacy-lens-web
+  IMAGE_API: balaswamynaikd/legacy_lens/legacy-lens-api
+  IMAGE_WEB: balaswamynaikd/legacy_lens/legacy-lens-web
 
 jobs:
   # ── 1. Type-check & build ─────────────────────────────────────────────────
