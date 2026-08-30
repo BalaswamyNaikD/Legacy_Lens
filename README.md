@@ -29,6 +29,38 @@
 13. [Environment Variables](#13-environment-variables)
 
 ---
+***
+## IBM Bob 2.0 Development Evidence
+
+Legacy Lens was developed with IBM Bob 2.0 as an AI-assisted development
+environment.
+
+IBM Bob was used throughout development for project creation, code
+implementation, repository exploration, debugging, dependency analysis,
+configuration fixes, feature validation, testing, and legacy-code workflow
+development.
+
+Detailed IBM Bob task-session evidence is available here:
+
+[IBM Bob 2.0 Development Evidence](docs/ibm-bob/README.md)
+
+### IBM Bob Development Workflow
+
+| Development stage | IBM Bob contribution |
+|---|---|
+| Project setup | Agent-assisted project structure and source creation |
+| Frontend development | React components and styling |
+| Backend development | Services, repositories and database implementation |
+| Code analysis | Repository and dependency analysis |
+| Debugging | Identification and correction of implementation issues |
+| Configuration | Environment and API configuration fixes |
+| Validation | Feature validation and local application testing |
+| Legacy analysis workflow | Agent-assisted legacy-code investigation and impact analysis |
+
+The repository contains the implementation and supporting project artifacts,
+while the `docs/ibm-bob/` directory contains screenshots documenting IBM Bob
+usage throughout development.
+***
 
 ## 1. Executive Summary
 
