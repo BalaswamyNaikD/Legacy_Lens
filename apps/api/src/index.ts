@@ -40,7 +40,7 @@ const projects = [
 const WATSONX_API_URL = process.env.WATSONX_API_URL ?? 'https://us-south.ml.cloud.ibm.com';
 const WATSONX_PROJECT_ID = process.env.WATSONX_PROJECT_ID ?? '';
 const WATSONX_API_KEY = process.env.WATSONX_API_KEY ?? '';
-const WATSONX_MODEL_ID = process.env.WATSONX_MODEL_ID ?? 'ibm/granite-4-8b-instruct';
+const WATSONX_MODEL_ID = process.env.WATSONX_MODEL_ID ?? 'ibm/granite-4-h-instruct';
 
 /** Exchange an IBM Cloud API key for a short-lived IAM bearer token. */
 async function getIAMToken(): Promise<string> {
