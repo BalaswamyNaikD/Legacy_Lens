@@ -693,7 +693,7 @@ export default function App() {
     setAgentLoading(true);
 
     try {
-      const response = await fetch('/api/agent/chat', {
+      const response = await fetch('https://legacy-lens-api.onrender.com/api/agent/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: text, context: buildAgentContext() })
