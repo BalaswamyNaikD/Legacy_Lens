@@ -6,7 +6,7 @@
 
 ---
 
-## Video Demo Link: https://drive.google.com/file/d/16cayRaCbVpdjU2RiKI3tmkcYU3VrAnrg/view?usp=drive_link
+## Video Demo Link: https://drive.google.com/file/d/1cdM5iMs7wIBGU5vmsY4uFyNSbJqctSoO/view?usp=drive_link
 
 🚀 **Website Link** https://legacy-lens-web.onrender.com/ (please open the link only on a laptop/pc browaers)
 
