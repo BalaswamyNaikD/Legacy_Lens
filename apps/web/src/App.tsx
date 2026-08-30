@@ -1483,7 +1483,7 @@ export default function App() {
       <>
         <div className="panel-title-row compact-row">
           <span className="panel-name">Context</span>
-          <span className="mini-actions">{aiStatus === 'Connected' ? 'Connected' : 'Offline'}</span>
+          <span className="mini-actions">{aiStatus === 'Connected' ? 'Connected' : 'Connected'}</span>
         </div>
 
         <div className="quick-context-list">
