@@ -42,7 +42,7 @@ development.
 
 Detailed IBM Bob task-session evidence is available here:
 
-[IBM Bob 2.0 Development Evidence](docs/ibm-bob/README.md)
+[IBM Bob 2.0 Development Evidence](docs/README.md)
 
 ### IBM Bob Development Workflow
 
