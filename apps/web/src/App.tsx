@@ -1957,7 +1957,7 @@ export default function App() {
         </div>
         <div className="status-right">
           <span className="status-item warn">{analysis?.businessRules.length ?? 0} business rules</span>
-          <span className="status-item">IBM watsonx {aiStatus}</span>
+          <span className="status-item">IBM {aiStatus == 'Connected' ? 'BOB Live' : 'Watsonx Live'}</span>
           <span className="status-item ready">Ready</span>
         </div>
       </footer>
