@@ -6,9 +6,9 @@
 
 ---
 
-## Live Demo
+## Video Demo Link: https://drive.google.com/file/d/1hAAirpFnmSriQ9m3pp-SzGMjvCDOho4F/view?usp=drive_link
 
-🚀 **Deployed on Render:** [https://legacy-lens.onrender.com](https://legacy-lens.onrender.com) *(deployed via GitHub Actions)*
+🚀 **Website Link** https://legacy-lens-web.onrender.com/
 
 ---
 
@@ -367,7 +367,7 @@ docker compose up --build
 ```
 
 - **Web:** http://localhost:80
-- **API:** http://localhost:4000
+- **API:** http://localhost:10000
 
 Nginx proxies all `/api/*` requests from the web container to the API container automatically.
 
@@ -396,8 +396,8 @@ To enable SSH deployment to a VPS, uncomment the `deploy` job in the workflow an
 | `NODE_ENV` | No | `development` or `production` |
 
 Available model options:
-- `ibm/granite-13b-instruct-v2` (default)
-- `ibm/granite-3-8b-instruct`
+- `ibm/granite-4-h-small`(default)
+- `ibm/granite-13b-instruct-v2` 
 - `meta-llama/llama-3-70b-instruct`
 
 ---
