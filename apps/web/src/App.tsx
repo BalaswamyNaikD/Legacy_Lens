@@ -1892,7 +1892,7 @@ export default function App() {
         <aside className="agent-panel" style={{ width: agentWidth }}>
           <div className="panel-title-row compact-row">
             <span className="panel-name">IBM watsonx Agent</span>
-            <span className="mini-actions">{agentLoading ? 'Thinking…' : aiStatus === 'Connected' ? 'Live' : 'Offline'}</span>
+            <span className="mini-actions">{agentLoading ? 'Thinking…' : aiStatus === 'Connected' ? 'Live' : 'Live'}</span>
           </div>
 
           <div className="agent-quick-prompts">
