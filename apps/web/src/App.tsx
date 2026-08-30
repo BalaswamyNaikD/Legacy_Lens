@@ -702,7 +702,7 @@ export default function App() {
       const reply = data.reply ?? data.error ?? 'No response received.';
       setAgentMessages((prev) => [...prev, { role: 'agent', text: reply, source: data.source ?? 'fallback' }]);
     } catch {
-      setAgentMessages((prev) => [...prev, { role: 'agent', text: 'Connection error — make sure the API is running on port 4000.' }]);
+      setAgentMessages((prev) => [...prev, { role: 'agent', text: 'Connection error — make sure the API is running on port 10000.' }]);
     } finally {
       setAgentLoading(false);
     }
