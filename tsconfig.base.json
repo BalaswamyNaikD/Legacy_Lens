@@ -14,9 +14,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "types": ["node"],
-    "baseUrl": ".",
     "paths": {
-      "@legacy-lens/*": ["packages/*/src/index.ts"]
+      "@legacy-lens/*": ["./packages/*/src/index.ts"]
     }
   }
 }
